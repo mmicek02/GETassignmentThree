@@ -13,7 +13,7 @@ function displayResults(responseJson) {
   console.log(responseJson);
   //replace the existing image with the new one
   $('.results-img').replaceWith(
-    `<img src="${responseJson.message}" class="results-img">`);
+    `<img src="${responseJson.message[0]}" class="results-img">`);
 
   //display the results section
   console.log('Ready to reveal images!');

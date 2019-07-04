@@ -2,14 +2,17 @@
     box-sizing: border-box;
   }
   
-  body {
+body {
     font-family: 'Roboto', sans-serif;
   }
   
-  .container {
+.container {
     max-width: 600px;
     margin: 0 auto;
   }
-  .numOfPictures {
+.numOfPictures {
       border: 1px solid black;
+  }
+.hidden {
+    display: none;
   }
