@@ -15,7 +15,7 @@ function getDogImage() {
     .then(response => response.json())
     .then(responseJson => 
       displayResults(responseJson))
-    .catch(error => alert('Something went wrong. Try again later.'));
+    .catch(error => alert('Something went wrong. We cannot find that breed.'));
 }
 
 function displayResults(responseJson) {
